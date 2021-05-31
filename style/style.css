@@ -1,0 +1,115 @@
+/* generics */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #ADD8E6;
+    font-family: 'Sigmar One', cursive;
+}
+
+/* header */
+header{
+    color: white;
+    font-size: 40px;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    text-transform:uppercase;
+}
+
+/* container */
+.container{
+    margin: 0 20%;
+}
+/* celle */
+.cella{
+    z-index: 1;
+    background: white;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    float: left;
+    width: calc(25% - 40px);
+    height: calc(800px / 3);
+    border-radius: 15px;
+    background-size:contain;
+    background-position: center;
+    background-image: url(../img/pattern.png);
+    overflow: hidden;
+}
+
+.cella:nth-child(1){
+    margin-left: 0;
+}
+
+.cella:nth-child(4){
+    float: right;
+    margin-right: 0;
+}
+
+/* immagini */
+img{
+    width: 100%;
+}
+
+.image{
+    opacity: 0;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+/* hover */
+.image:hover{
+    opacity: 100%;
+}
+
+/* titoli immagini */
+.image-title{
+    font-size: 25px;
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+    text-shadow: 1px 1px black;
+}
+
+/* titoli immagini/colori */
+.sub-marine{
+    color: orchid;
+    left: 40px;
+}
+
+.tractor{
+    color: palegreen;
+    left: 60px;
+}
+
+.tram{
+    color: purple;
+    left: 80px;
+}
+
+.ship{
+    color: royalblue;
+    left: 90px;
+}
+
+.bicycle{
+    color: tomato;
+    left: 90px;
+}
+
+.baloon{
+    color: yellowgreen;
+    left: 40px;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    color: black;
+}
